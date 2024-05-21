@@ -1,8 +1,5 @@
-from DB import DB
-import sqlite3
-from Interfaz_grafica import Interfaz
-from Almacen_info import AlmacenInfo
-
+from gestor_espacios_deportivos.database.db import DB
+from gestor_espacios_deportivos.ui.interfaz_grafica import Interfaz
 
 # si la conexión a la base de datos se da, entonces ejecuta el programa
 db = DB('app.db')
